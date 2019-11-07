@@ -12,4 +12,9 @@ class Artist
     @songs
   end
   
+  def add_song_by_title(title)
+    new_post = Post.new(title)
+    @posts << new_post
+  end
+  
 end
