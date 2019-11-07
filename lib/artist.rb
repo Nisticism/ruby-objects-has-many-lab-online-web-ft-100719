@@ -4,9 +4,7 @@ class Artist
   
   @@all_songs = []
   
-  def initialize(name = "", genre)
-  
-    @name = name
+  def initialize(genre)
     @genre = genre
     @songs = []
   end
