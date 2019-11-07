@@ -10,7 +10,7 @@ class Artist
     @genre = genre
   end
   
-  def songs_all
+  def songs
     @songs
   end
   
