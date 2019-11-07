@@ -1,15 +1,10 @@
 class Author
   
-  attr_accessor :name
+  attr_accessor :name, :posts
   
   def initialize(name)
     @title = title
-    @genre = genre
-    save 
-  end
-  
-  def save
-    @@all < self 
+    @posts = []
   end
   
   def self.all 
