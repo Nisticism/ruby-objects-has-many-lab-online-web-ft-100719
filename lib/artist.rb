@@ -8,8 +8,8 @@ class Artist
     @songs = []
   end
   
-  def posts_all
-    @posts
+  def songs_all
+    @songs
   end
   
 end
