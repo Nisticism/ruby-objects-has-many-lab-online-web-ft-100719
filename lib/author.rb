@@ -7,8 +7,8 @@ class Author
     @posts = []
   end
   
-  def self.all 
-    @@all 
+  def posts_all
+    @posts
   end
   
 end
