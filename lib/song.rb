@@ -6,7 +6,8 @@ class Song
   
   def initialize(title)
     @title = title
-    @artist
+    
+    save 
   end
   
   def save
