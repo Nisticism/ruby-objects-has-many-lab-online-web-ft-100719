@@ -12,9 +12,12 @@ class Artist
     @songs
   end
   
-  def add_song_by_title(title)
-    new_post = Post.new(title)
-    @posts << new_post
+  def add_song_by_name(name)
+    new_song = Song.new(name)
+    @songs << new_song
   end
+  
+  def self.song_count
+    
   
 end
